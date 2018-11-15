@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/KeyboardHandler/Form1.cs) (VB: [Form1.vb](./VB/KeyboardHandler/Form1.vb))
+* [Program.cs](./CS/KeyboardHandler/Program.cs) (VB: [Program.vb](./VB/KeyboardHandler/Program.vb))
+<!-- default file list end -->
 # How to handle key press events via services
 
 
