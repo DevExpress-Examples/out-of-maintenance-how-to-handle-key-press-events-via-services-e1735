@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using DevExpress.Portable.Input;
 #region #usings
 using DevExpress.Services;
 using DevExpress.XtraRichEdit;
@@ -36,9 +37,9 @@ namespace KeyboardHandler {
         public MyKeyboardHandlerServiceWrapper(IKeyboardHandlerService service) 
             : base(service) { }
 
-        public override void OnKeyDown(KeyEventArgs e) {
-            if(((e.KeyCode == Keys.C) || (e.KeyCode == Keys.X) || 
-                (e.KeyCode == Keys.Insert)) && e.Control) {
+        public override void OnKeyDown(PortableKeyEventArgs e) {
+            if(((e.KeyCode == PortableKeys.C) || (e.KeyCode == PortableKeys.X) || 
+                (e.KeyCode == PortableKeys.Insert)) && e.Control) {
                 return;
             }
             base.OnKeyDown(e);
