@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace KeyboardHandler
+﻿Namespace KeyboardHandler
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
